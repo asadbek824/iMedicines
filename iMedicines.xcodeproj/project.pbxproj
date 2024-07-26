@@ -7,15 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B30760A2C53C4A800F430C2 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3076092C53C4A800F430C2 /* NotificationManager.swift */; };
 		7BE8344A2C53BB3900B1B632 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE834492C53BB3900B1B632 /* AppDelegate.swift */; };
-		7BE8344C2C53BB3900B1B632 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE8344B2C53BB3900B1B632 /* SceneDelegate.swift */; };
-		7BE8344E2C53BB3900B1B632 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE8344D2C53BB3900B1B632 /* ViewController.swift */; };
-		7BE834512C53BB3900B1B632 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 7BE834502C53BB3900B1B632 /* Base */; };
 		7BE834532C53BB3A00B1B632 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BE834522C53BB3A00B1B632 /* Assets.xcassets */; };
 		7BE834562C53BB3A00B1B632 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 7BE834552C53BB3A00B1B632 /* Base */; };
 		7BE834612C53BB3A00B1B632 /* iMedicinesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE834602C53BB3A00B1B632 /* iMedicinesTests.swift */; };
 		7BE8346B2C53BB3A00B1B632 /* iMedicinesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE8346A2C53BB3A00B1B632 /* iMedicinesUITests.swift */; };
 		7BE8346D2C53BB3A00B1B632 /* iMedicinesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE8346C2C53BB3A00B1B632 /* iMedicinesUITestsLaunchTests.swift */; };
+		7BE8347B2C53BBA700B1B632 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 7BE8347A2C53BBA700B1B632 /* RealmSwift */; };
+		7BE834872C53BBD800B1B632 /* AddMedicinesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE8347C2C53BBD700B1B632 /* AddMedicinesViewController.swift */; };
+		7BE834882C53BBD800B1B632 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE8347D2C53BBD700B1B632 /* HomeViewController.swift */; };
+		7BE834892C53BBD800B1B632 /* RealmSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE8347F2C53BBD700B1B632 /* RealmSwift.swift */; };
+		7BE8348A2C53BBD800B1B632 /* MedicinesHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE834812C53BBD700B1B632 /* MedicinesHistoryViewController.swift */; };
+		7BE8348B2C53BBD800B1B632 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE834832C53BBD800B1B632 /* UIColor.swift */; };
+		7BE8348C2C53BBD800B1B632 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE834842C53BBD800B1B632 /* UIView.swift */; };
+		7BE8348D2C53BBD800B1B632 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE834852C53BBD800B1B632 /* UIViewController.swift */; };
+		7BE834932C53BBE800B1B632 /* EffectTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE8348E2C53BBE700B1B632 /* EffectTableViewCell.swift */; };
+		7BE834942C53BBE800B1B632 /* MedicineEffectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE8348F2C53BBE700B1B632 /* MedicineEffectsViewController.swift */; };
+		7BE834952C53BBE800B1B632 /* MedicinesDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE834902C53BBE700B1B632 /* MedicinesDetailsViewController.swift */; };
+		7BE834962C53BBE800B1B632 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE834922C53BBE800B1B632 /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +46,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7B3076092C53C4A800F430C2 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
 		7BE834462C53BB3900B1B632 /* iMedicines.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iMedicines.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BE834492C53BB3900B1B632 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7BE8344B2C53BB3900B1B632 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7BE8344D2C53BB3900B1B632 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7BE834502C53BB3900B1B632 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7BE834522C53BB3A00B1B632 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7BE834552C53BB3A00B1B632 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7BE834572C53BB3A00B1B632 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +57,17 @@
 		7BE834662C53BB3A00B1B632 /* iMedicinesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iMedicinesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BE8346A2C53BB3A00B1B632 /* iMedicinesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iMedicinesUITests.swift; sourceTree = "<group>"; };
 		7BE8346C2C53BB3A00B1B632 /* iMedicinesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iMedicinesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7BE8347C2C53BBD700B1B632 /* AddMedicinesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddMedicinesViewController.swift; sourceTree = "<group>"; };
+		7BE8347D2C53BBD700B1B632 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		7BE8347F2C53BBD700B1B632 /* RealmSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmSwift.swift; sourceTree = "<group>"; };
+		7BE834812C53BBD700B1B632 /* MedicinesHistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MedicinesHistoryViewController.swift; sourceTree = "<group>"; };
+		7BE834832C53BBD800B1B632 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		7BE834842C53BBD800B1B632 /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		7BE834852C53BBD800B1B632 /* UIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		7BE8348E2C53BBE700B1B632 /* EffectTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EffectTableViewCell.swift; sourceTree = "<group>"; };
+		7BE8348F2C53BBE700B1B632 /* MedicineEffectsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MedicineEffectsViewController.swift; sourceTree = "<group>"; };
+		7BE834902C53BBE700B1B632 /* MedicinesDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MedicinesDetailsViewController.swift; sourceTree = "<group>"; };
+		7BE834922C53BBE800B1B632 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BE8347B2C53BBA700B1B632 /* RealmSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,9 +120,12 @@
 			isa = PBXGroup;
 			children = (
 				7BE834492C53BB3900B1B632 /* AppDelegate.swift */,
-				7BE8344B2C53BB3900B1B632 /* SceneDelegate.swift */,
-				7BE8344D2C53BB3900B1B632 /* ViewController.swift */,
-				7BE8344F2C53BB3900B1B632 /* Main.storyboard */,
+				7BE8347E2C53BBD700B1B632 /* HomeViewController */,
+				7BE834912C53BBE700B1B632 /* MedicineDetailsViewController */,
+				7BE834822C53BBD700B1B632 /* HistoryViewCotnroller */,
+				7BE834922C53BBE800B1B632 /* TableViewCell.swift */,
+				7BE834802C53BBD700B1B632 /* CustomElements */,
+				7BE834862C53BBD800B1B632 /* Extentions */,
 				7BE834522C53BB3A00B1B632 /* Assets.xcassets */,
 				7BE834542C53BB3A00B1B632 /* LaunchScreen.storyboard */,
 				7BE834572C53BB3A00B1B632 /* Info.plist */,
@@ -127,6 +150,52 @@
 			path = iMedicinesUITests;
 			sourceTree = "<group>";
 		};
+		7BE8347E2C53BBD700B1B632 /* HomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7BE8347C2C53BBD700B1B632 /* AddMedicinesViewController.swift */,
+				7BE8347D2C53BBD700B1B632 /* HomeViewController.swift */,
+			);
+			path = HomeViewController;
+			sourceTree = "<group>";
+		};
+		7BE834802C53BBD700B1B632 /* CustomElements */ = {
+			isa = PBXGroup;
+			children = (
+				7BE8347F2C53BBD700B1B632 /* RealmSwift.swift */,
+				7B3076092C53C4A800F430C2 /* NotificationManager.swift */,
+			);
+			path = CustomElements;
+			sourceTree = "<group>";
+		};
+		7BE834822C53BBD700B1B632 /* HistoryViewCotnroller */ = {
+			isa = PBXGroup;
+			children = (
+				7BE834812C53BBD700B1B632 /* MedicinesHistoryViewController.swift */,
+			);
+			path = HistoryViewCotnroller;
+			sourceTree = "<group>";
+		};
+		7BE834862C53BBD800B1B632 /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				7BE834832C53BBD800B1B632 /* UIColor.swift */,
+				7BE834842C53BBD800B1B632 /* UIView.swift */,
+				7BE834852C53BBD800B1B632 /* UIViewController.swift */,
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
+		7BE834912C53BBE700B1B632 /* MedicineDetailsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7BE8348E2C53BBE700B1B632 /* EffectTableViewCell.swift */,
+				7BE8348F2C53BBE700B1B632 /* MedicineEffectsViewController.swift */,
+				7BE834902C53BBE700B1B632 /* MedicinesDetailsViewController.swift */,
+			);
+			path = MedicineDetailsViewController;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +212,9 @@
 			dependencies = (
 			);
 			name = iMedicines;
+			packageProductDependencies = (
+				7BE8347A2C53BBA700B1B632 /* RealmSwift */,
+			);
 			productName = iMedicines;
 			productReference = 7BE834462C53BB3900B1B632 /* iMedicines.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +287,9 @@
 				Base,
 			);
 			mainGroup = 7BE8343D2C53BB3900B1B632;
+			packageReferences = (
+				7BE834792C53BBA700B1B632 /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
 			productRefGroup = 7BE834472C53BB3900B1B632 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,7 +308,6 @@
 			files = (
 				7BE834532C53BB3A00B1B632 /* Assets.xcassets in Resources */,
 				7BE834562C53BB3A00B1B632 /* Base in Resources */,
-				7BE834512C53BB3900B1B632 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +332,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7BE8344E2C53BB3900B1B632 /* ViewController.swift in Sources */,
+				7BE834872C53BBD800B1B632 /* AddMedicinesViewController.swift in Sources */,
+				7BE8348B2C53BBD800B1B632 /* UIColor.swift in Sources */,
+				7BE834932C53BBE800B1B632 /* EffectTableViewCell.swift in Sources */,
+				7BE834942C53BBE800B1B632 /* MedicineEffectsViewController.swift in Sources */,
+				7BE834892C53BBD800B1B632 /* RealmSwift.swift in Sources */,
+				7BE834952C53BBE800B1B632 /* MedicinesDetailsViewController.swift in Sources */,
+				7B30760A2C53C4A800F430C2 /* NotificationManager.swift in Sources */,
+				7BE8348C2C53BBD800B1B632 /* UIView.swift in Sources */,
 				7BE8344A2C53BB3900B1B632 /* AppDelegate.swift in Sources */,
-				7BE8344C2C53BB3900B1B632 /* SceneDelegate.swift in Sources */,
+				7BE8348A2C53BBD800B1B632 /* MedicinesHistoryViewController.swift in Sources */,
+				7BE834962C53BBE800B1B632 /* TableViewCell.swift in Sources */,
+				7BE8348D2C53BBD800B1B632 /* UIViewController.swift in Sources */,
+				7BE834882C53BBD800B1B632 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +381,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		7BE8344F2C53BB3900B1B632 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7BE834502C53BB3900B1B632 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7BE834542C53BB3A00B1B632 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -368,7 +444,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -425,7 +501,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -445,11 +521,14 @@
 				DEVELOPMENT_TEAM = 3DJM2CZRX2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = iMedicines/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = iMedicines;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.medical";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -457,6 +536,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = AssA.iMedicines;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -473,11 +556,14 @@
 				DEVELOPMENT_TEAM = 3DJM2CZRX2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = iMedicines/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = iMedicines;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.medical";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -485,6 +571,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = AssA.iMedicines;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -607,6 +697,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7BE834792C53BBA700B1B632 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7BE8347A2C53BBA700B1B632 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7BE834792C53BBA700B1B632 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7BE8343E2C53BB3900B1B632 /* Project object */;
 }

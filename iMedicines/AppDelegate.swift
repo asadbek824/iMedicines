@@ -10,27 +10,53 @@ import UIKit
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
+    var window: UIWindow?
+    
+    private let tabBarItemsData = [
+        TabBarItemData(image: "square.and.pencil", title: "List of medicines", type: HomeViewController()),
+        TabBarItemData(image: "clock", title: "History of medicines", type: MedicinesHistoryViewController())
+    ]
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        let tabBarVC = UITabBarController()
+        
+        tabBarVC.viewControllers = createTabBarItems(tabBarItems: tabBarItemsData)
+        tabBarVC.selectedIndex = 0
+        tabBarVC.tabBar.backgroundColor = .white
+        tabBarVC.tabBar.tintColor = .appColor.primaryButton
+        tabBarVC.tabBar.layer.cornerRadius = 20
+        tabBarVC.tabBar.clipsToBounds = true
+        
+        window = UIWindow(frame: UIScreen.main.bounds)
+        window?.rootViewController = tabBarVC
+        window?.makeKeyAndVisible()
+        window?.overrideUserInterfaceStyle = .light
+        
         return true
     }
+}
 
-    // MARK: UISceneSession Lifecycle
-
-    func application(_ application: UIApplication, configurationForConnecting connectingSceneSession: UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration {
-        // Called when a new scene session is being created.
-        // Use this method to select a configuration to create the new scene with.
-        return UISceneConfiguration(name: "Default Configuration", sessionRole: connectingSceneSession.role)
+extension AppDelegate {
+    
+    func createTabBarItems(tabBarItems: [TabBarItemData]) -> [UIViewController] {
+        var tabBars: [UIViewController] = []
+        
+        for item in tabBarItems {
+            let vc: UIViewController = UINavigationController(rootViewController: item.type)
+            
+            vc.tabBarItem.title = item.title
+            vc.tabBarItem.image = UIImage(systemName: item.image)
+            
+            tabBars.append(vc)
+        }
+        return tabBars
     }
+}
 
-    func application(_ application: UIApplication, didDiscardSceneSessions sceneSessions: Set<UISceneSession>) {
-        // Called when the user discards a scene session.
-        // If any sessions were discarded while the application was not running, this will be called shortly after application:didFinishLaunchingWithOptions.
-        // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
-    }
-
-
+struct TabBarItemData {
+    let image: String
+    let title: String
+    let type: UIViewController
 }
 
