@@ -7,13 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		59DBFF9E2D8814C2009C81BE /* RealmSwift in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 7BE8347A2C53BBA700B1B632 /* RealmSwift */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		7B30760A2C53C4A800F430C2 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3076092C53C4A800F430C2 /* NotificationManager.swift */; };
 		7BE8344A2C53BB3900B1B632 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE834492C53BB3900B1B632 /* AppDelegate.swift */; };
 		7BE834532C53BB3A00B1B632 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BE834522C53BB3A00B1B632 /* Assets.xcassets */; };
 		7BE834562C53BB3A00B1B632 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 7BE834552C53BB3A00B1B632 /* Base */; };
-		7BE834612C53BB3A00B1B632 /* iMedicinesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE834602C53BB3A00B1B632 /* iMedicinesTests.swift */; };
-		7BE8346B2C53BB3A00B1B632 /* iMedicinesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE8346A2C53BB3A00B1B632 /* iMedicinesUITests.swift */; };
-		7BE8346D2C53BB3A00B1B632 /* iMedicinesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE8346C2C53BB3A00B1B632 /* iMedicinesUITestsLaunchTests.swift */; };
 		7BE8347B2C53BBA700B1B632 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 7BE8347A2C53BBA700B1B632 /* RealmSwift */; };
 		7BE834872C53BBD800B1B632 /* AddMedicinesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE8347C2C53BBD700B1B632 /* AddMedicinesViewController.swift */; };
 		7BE834882C53BBD800B1B632 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE8347D2C53BBD700B1B632 /* HomeViewController.swift */; };
@@ -28,22 +26,19 @@
 		7BE834962C53BBE800B1B632 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE834922C53BBE800B1B632 /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		7BE8345D2C53BB3A00B1B632 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7BE8343E2C53BB3900B1B632 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7BE834452C53BB3900B1B632;
-			remoteInfo = iMedicines;
+/* Begin PBXCopyFilesBuildPhase section */
+		59DBFF9F2D8814C2009C81BE /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				59DBFF9E2D8814C2009C81BE /* RealmSwift in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7BE834672C53BB3A00B1B632 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7BE8343E2C53BB3900B1B632 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7BE834452C53BB3900B1B632;
-			remoteInfo = iMedicines;
-		};
-/* End PBXContainerItemProxy section */
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		7B3076092C53C4A800F430C2 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
@@ -52,11 +47,6 @@
 		7BE834522C53BB3A00B1B632 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7BE834552C53BB3A00B1B632 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7BE834572C53BB3A00B1B632 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7BE8345C2C53BB3A00B1B632 /* iMedicinesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iMedicinesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7BE834602C53BB3A00B1B632 /* iMedicinesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iMedicinesTests.swift; sourceTree = "<group>"; };
-		7BE834662C53BB3A00B1B632 /* iMedicinesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iMedicinesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7BE8346A2C53BB3A00B1B632 /* iMedicinesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iMedicinesUITests.swift; sourceTree = "<group>"; };
-		7BE8346C2C53BB3A00B1B632 /* iMedicinesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iMedicinesUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		7BE8347C2C53BBD700B1B632 /* AddMedicinesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddMedicinesViewController.swift; sourceTree = "<group>"; };
 		7BE8347D2C53BBD700B1B632 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		7BE8347F2C53BBD700B1B632 /* RealmSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmSwift.swift; sourceTree = "<group>"; };
@@ -79,20 +69,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7BE834592C53BB3A00B1B632 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7BE834632C53BB3A00B1B632 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -100,8 +76,6 @@
 			isa = PBXGroup;
 			children = (
 				7BE834482C53BB3900B1B632 /* iMedicines */,
-				7BE8345F2C53BB3A00B1B632 /* iMedicinesTests */,
-				7BE834692C53BB3A00B1B632 /* iMedicinesUITests */,
 				7BE834472C53BB3900B1B632 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -110,8 +84,6 @@
 			isa = PBXGroup;
 			children = (
 				7BE834462C53BB3900B1B632 /* iMedicines.app */,
-				7BE8345C2C53BB3A00B1B632 /* iMedicinesTests.xctest */,
-				7BE834662C53BB3A00B1B632 /* iMedicinesUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -131,23 +103,6 @@
 				7BE834572C53BB3A00B1B632 /* Info.plist */,
 			);
 			path = iMedicines;
-			sourceTree = "<group>";
-		};
-		7BE8345F2C53BB3A00B1B632 /* iMedicinesTests */ = {
-			isa = PBXGroup;
-			children = (
-				7BE834602C53BB3A00B1B632 /* iMedicinesTests.swift */,
-			);
-			path = iMedicinesTests;
-			sourceTree = "<group>";
-		};
-		7BE834692C53BB3A00B1B632 /* iMedicinesUITests */ = {
-			isa = PBXGroup;
-			children = (
-				7BE8346A2C53BB3A00B1B632 /* iMedicinesUITests.swift */,
-				7BE8346C2C53BB3A00B1B632 /* iMedicinesUITestsLaunchTests.swift */,
-			);
-			path = iMedicinesUITests;
 			sourceTree = "<group>";
 		};
 		7BE8347E2C53BBD700B1B632 /* HomeViewController */ = {
@@ -206,6 +161,7 @@
 				7BE834422C53BB3900B1B632 /* Sources */,
 				7BE834432C53BB3900B1B632 /* Frameworks */,
 				7BE834442C53BB3900B1B632 /* Resources */,
+				59DBFF9F2D8814C2009C81BE /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -219,42 +175,6 @@
 			productReference = 7BE834462C53BB3900B1B632 /* iMedicines.app */;
 			productType = "com.apple.product-type.application";
 		};
-		7BE8345B2C53BB3A00B1B632 /* iMedicinesTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7BE834732C53BB3A00B1B632 /* Build configuration list for PBXNativeTarget "iMedicinesTests" */;
-			buildPhases = (
-				7BE834582C53BB3A00B1B632 /* Sources */,
-				7BE834592C53BB3A00B1B632 /* Frameworks */,
-				7BE8345A2C53BB3A00B1B632 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				7BE8345E2C53BB3A00B1B632 /* PBXTargetDependency */,
-			);
-			name = iMedicinesTests;
-			productName = iMedicinesTests;
-			productReference = 7BE8345C2C53BB3A00B1B632 /* iMedicinesTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		7BE834652C53BB3A00B1B632 /* iMedicinesUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7BE834762C53BB3A00B1B632 /* Build configuration list for PBXNativeTarget "iMedicinesUITests" */;
-			buildPhases = (
-				7BE834622C53BB3A00B1B632 /* Sources */,
-				7BE834632C53BB3A00B1B632 /* Frameworks */,
-				7BE834642C53BB3A00B1B632 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				7BE834682C53BB3A00B1B632 /* PBXTargetDependency */,
-			);
-			name = iMedicinesUITests;
-			productName = iMedicinesUITests;
-			productReference = 7BE834662C53BB3A00B1B632 /* iMedicinesUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -267,14 +187,6 @@
 				TargetAttributes = {
 					7BE834452C53BB3900B1B632 = {
 						CreatedOnToolsVersion = 15.4;
-					};
-					7BE8345B2C53BB3A00B1B632 = {
-						CreatedOnToolsVersion = 15.4;
-						TestTargetID = 7BE834452C53BB3900B1B632;
-					};
-					7BE834652C53BB3A00B1B632 = {
-						CreatedOnToolsVersion = 15.4;
-						TestTargetID = 7BE834452C53BB3900B1B632;
 					};
 				};
 			};
@@ -295,8 +207,6 @@
 			projectRoot = "";
 			targets = (
 				7BE834452C53BB3900B1B632 /* iMedicines */,
-				7BE8345B2C53BB3A00B1B632 /* iMedicinesTests */,
-				7BE834652C53BB3A00B1B632 /* iMedicinesUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -308,20 +218,6 @@
 			files = (
 				7BE834532C53BB3A00B1B632 /* Assets.xcassets in Resources */,
 				7BE834562C53BB3A00B1B632 /* Base in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7BE8345A2C53BB3A00B1B632 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7BE834642C53BB3A00B1B632 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,37 +244,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7BE834582C53BB3A00B1B632 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7BE834612C53BB3A00B1B632 /* iMedicinesTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7BE834622C53BB3A00B1B632 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7BE8346D2C53BB3A00B1B632 /* iMedicinesUITestsLaunchTests.swift in Sources */,
-				7BE8346B2C53BB3A00B1B632 /* iMedicinesUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		7BE8345E2C53BB3A00B1B632 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 7BE834452C53BB3900B1B632 /* iMedicines */;
-			targetProxy = 7BE8345D2C53BB3A00B1B632 /* PBXContainerItemProxy */;
-		};
-		7BE834682C53BB3A00B1B632 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 7BE834452C53BB3900B1B632 /* iMedicines */;
-			targetProxy = 7BE834672C53BB3A00B1B632 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		7BE834542C53BB3A00B1B632 /* LaunchScreen.storyboard */ = {
@@ -583,84 +449,6 @@
 			};
 			name = Release;
 		};
-		7BE834742C53BB3A00B1B632 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 3DJM2CZRX2;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = AssA.iMedicinesTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iMedicines.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iMedicines";
-			};
-			name = Debug;
-		};
-		7BE834752C53BB3A00B1B632 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 3DJM2CZRX2;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = AssA.iMedicinesTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iMedicines.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iMedicines";
-			};
-			name = Release;
-		};
-		7BE834772C53BB3A00B1B632 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 3DJM2CZRX2;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = AssA.iMedicinesUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = iMedicines;
-			};
-			name = Debug;
-		};
-		7BE834782C53BB3A00B1B632 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 3DJM2CZRX2;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = AssA.iMedicinesUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = iMedicines;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -678,24 +466,6 @@
 			buildConfigurations = (
 				7BE834712C53BB3A00B1B632 /* Debug */,
 				7BE834722C53BB3A00B1B632 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		7BE834732C53BB3A00B1B632 /* Build configuration list for PBXNativeTarget "iMedicinesTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7BE834742C53BB3A00B1B632 /* Debug */,
-				7BE834752C53BB3A00B1B632 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		7BE834762C53BB3A00B1B632 /* Build configuration list for PBXNativeTarget "iMedicinesUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7BE834772C53BB3A00B1B632 /* Debug */,
-				7BE834782C53BB3A00B1B632 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
